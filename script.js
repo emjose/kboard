@@ -1,5 +1,3 @@
-
-
 const output = document.querySelector('.input-area')
 
 const keysEnglish = {

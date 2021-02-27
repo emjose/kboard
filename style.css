@@ -20,7 +20,7 @@ body {
 .input-area {
   display: block;
   width: 95%;
-
+  line-height: 36px;
   max-width: 1050px;
   height: calc(100vh - 580px);
   min-height: 10px;
@@ -138,14 +138,14 @@ body {
   left: 0;
   bottom: 0;
   width: 100%;
-  color: rgb(165, 165, 165);
+  color: rgb(184, 184, 184);
   text-align: center;
   font-family: "Lato", sans-serif;
-  margin-bottom: 20px;
+  margin-bottom: 25px;
   font-variant: small-caps;
   justify-content: center;
-  font-size: 1.45rem;
-  letter-spacing: 1px;
+  font-size: 1.4rem;
+  letter-spacing: 0.9px;
 }
 
 @media screen and (max-width: 768px) {
@@ -154,6 +154,7 @@ body {
     margin: auto 10px;
     margin-bottom: 20px;
     font-size: 14px;
+    line-height: 20px;
   }
 
   .keyboard {
