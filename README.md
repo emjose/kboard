@@ -1,6 +1,6 @@
 <p id="project-title"><p>
 
-<a href=#table-of-contents>![Keyboard](Assets/inter-020-keyboard.png)</a> 
+<a href=#table-of-contents>![Keyboard](assets/inter-020-keyboard.png)</a> 
 
 #
 
