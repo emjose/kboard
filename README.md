@@ -1,6 +1,19 @@
+<p id="header"><p>
+<table><tr>
+<td> <a href="https://github.com/emjose/calculator-vuejs/#header"><img src="assets/header-left.png" alt="previous" style="width: 200px;"/></a> </td>
+<td> <a href=#header><img src="assets/header-center.png" alt="100 days of code" style="width: 580px;"/></a> </td>
+<td> <a href="https://github.com/emjose/slingshot/#header"><img src="assets/header-right.png" alt="next" style="width: 200px;"/></a> </td>
+</tr></table>
+
+<br>
+
 <p id="project-title"><p>
 
 <a href=#table-of-contents>![Keyboard](assets/inter-020-keyboard.png)</a> 
+
+<br>
+
+<a href="https://emjose.github.io/">![Keyboard](assets/preview-020-keyboard.png)</a> 
 
 #
 
@@ -20,16 +33,15 @@
 
 <a href=#table-of-contents>![#100DaysOfCode](assets/inter-100hash.png)</a>  
 
-test\
-test
+<a href=#100days>![under construction](assets/lorem-text.png)</a>
 
 #
 
 <p id="installation"><p>
 
-<a href=#table-of-contents>![Installation](assets/inter-installation.png)</a>  
-test\
-test
+<a href=#table-of-contents>![Installation](assets/inter-installation.png)</a>
+
+<a href=#installation>![under construction](assets/lorem-text.png)</a>
 
 #
 
@@ -37,8 +49,7 @@ test
 
 <a href=#table-of-contents>![Demos](assets/inter-demo.png)</a>  
 
-test\
-test
+<a href=#demo>![under construction](assets/lorem-text.png)</a>
 
 #
 
@@ -46,8 +57,7 @@ test
 
 <a href=#table-of-contents>![Demos](assets/inter-resources.png)</a>  
 
-test\
-test
+<a href=#resources>![under construction](assets/lorem-text.png)</a>
 
 #
 
