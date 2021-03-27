@@ -37,8 +37,8 @@
 
 ### Day 20: February 28, 2021
 - I've always wanted to create a virtual keyboard, but it was difficult to find a tutorial for a responsive keyboard.
-- I don't speak Russian, but I ended up watching English and Russian YouTube tutorials on creating keyboards. 
-- This keyboard has English and Russian modes, and it uses speech recognition using the <a href="https://developer.mozilla.org/en-US/docs/Web/API/Web_Speech_API/Using_the_Web_Speech_API">Web Speech API.</a>
+- After a lot of searching, I found great Russian tutorials on YouTube from the Rolling Scopes School.
+- This keyboard has English and Russian modes, with speech recognition from the <a href="https://developer.mozilla.org/en-US/docs/Web/API/Web_Speech_API/Using_the_Web_Speech_API">Web Speech API.</a>
 
 #
 
