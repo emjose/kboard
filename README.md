@@ -23,7 +23,8 @@
 <a href=#table-of-contents>![Table of Contents](assets/inter-toc.png)</a>  
 
 - [100 Days of Code](#100days)
-- [Installation](#installation) 
+- [Installation](#installation)
+- [Notes](#notes) 
 - [Live Site](#live-site)
 - [Resources](#resources)
 - [Let's Connect!](#lets-connect) 
@@ -53,10 +54,18 @@ git clone git@github.com:emjose/kboard.git && cd kboard
 ```
 open index.html
 ```
-#### Notes
+
+#
+
+<p id="notes"><p>
+
+<a href=#notes>![Notes](assets/inter-notes.png)</a>
+
 - Press the "en/ru" key to switch between English and Russian modes.
 - The virtual keyboard will respond to your physical keyboard, with the exception of the "return" key.
 - For speech recognition, enable your computer microphone and press the microphone key on the virtual keyboard. Speak clearly and speech will be transcribed in the text area.
+
+#
 
 <p id="live-site"><p>
 
