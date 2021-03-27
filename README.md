@@ -34,7 +34,10 @@
 
 <a href=#100days>![#100DaysOfCode](assets/inter-100hash.png)</a>  
 
-<a href=#100days>![Under Construction](assets/lorem-text.png)</a>
+### Day 20: February 28, 2021
+- I've always wanted to create a responsive virtual keyboard, but it was difficult to find a tutorial that was not part of a tech library.
+- Even though I don't speak Russian, I ended up watching both English and Russian YouTube tutorials on creating keyboards. 
+- This virtual keyboard has English and Russian modes, and it uses speech recognition using the <a href="https://developer.mozilla.org/en-US/docs/Web/API/Web_Speech_API/Using_the_Web_Speech_API">Web Speech API.</a>
 
 #
 
@@ -50,14 +53,17 @@ git clone git@github.com:emjose/kboard.git && cd kboard
 ```
 open index.html
 ```
+#### • Press the "en/ru" key to switch between English and Russian modes.
 
-#
+#### • The virtual keyboard will respond to typing on your physical keyboard, with the exception of the "return" key.
+
+#### • For speech recognition, enable the microphone on your computer and press the microphone key on the virtual keyboard. Speak clearly and speech will be transcribed in the text area.
 
 <p id="live-site"><p>
 
 <a href="https://emjose.github.io/kboard/">![Live Site](assets/inter-live-site.png)</a>  
 
-<a href="https://emjose.github.io/kboard/">![Under Construction](assets/lorem-live.png)</a>
+<a href="https://emjose.github.io/kboard/">![Under Construction](assets/020-keyboard.gif)</a>
 
 #
 
@@ -65,8 +71,18 @@ open index.html
 
 <a href=#resources>![Resources](assets/inter-resources.png)</a>  
 
-<a href=#resources>![Under Construction](assets/lorem-text.png)</a>
+- #### [English Tutorial](https://youtu.be/N3cq0BHDMOY) by [dcode](https://www.youtube.com/channel/UCjX0FtIZBBVD3YoCcxnDC4g) 
+  
+- #### [Russian Tutorial, Part 1](https://youtu.be/nuQW_cBLR6Q) by [Rolling Scopes School](https://www.youtube.com/channel/UC578nebW2Mn-mNgjEArGZug)
+  
+- #### [Russian Tutorial, Part 2](https://youtu.be/dAxI351AhCg) by [Rolling Scopes School](https://www.youtube.com/channel/UC578nebW2Mn-mNgjEArGZug)
 
+- #### [JavaScript Speech Recognition Tutorial](https://www.youtube.com/watch?v=0mJC0A72Fnw) by [Wes Bos](https://www.youtube.com/channel/UCoebwHSTvwalADTJhps0emA)
+
+- #### [How to build a speech recognising app with JavaScript](https://medium.com/@susannakosonen/how-to-build-a-speech-recognising-app-with-javascript-1d5e5ba2c2c9) by [Susanna Kosonen](https://medium.com/@susannakosonen)
+
+- #### [Using the Web Speech API](https://developer.mozilla.org/en-US/docs/Web/API/Web_Speech_API/Using_the_Web_Speech_API)
+  
 #
 
 <p id="lets-connect"><p>
