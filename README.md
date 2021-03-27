@@ -53,9 +53,10 @@ git clone git@github.com:emjose/kboard.git && cd kboard
 ```
 open index.html
 ```
-    * Press the "en/ru" key to switch between English and Russian modes.
-    * The virtual keyboard will respond to your physical keyboard, with the exception of the "return" key.
-    * For speech recognition, enable the microphone on your computer and press the microphone key on the virtual keyboard. Speak clearly and speech will be transcribed in the text area.
+#### Notes
+- Press the "en/ru" key to switch between English and Russian modes.
+- The virtual keyboard will respond to your physical keyboard, with the exception of the "return" key.
+- For speech recognition, enable your computer microphone and press the microphone key on the virtual keyboard. Speak clearly and speech will be transcribed in the text area.
 
 <p id="live-site"><p>
 
