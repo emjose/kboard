@@ -69,7 +69,11 @@ open index.html
 
     - The "caps lock" key on your **physical keyboard** may need to be pressed twice to sync with the virtual keyboard.
   
-- For speech recognition, enable your computer microphone and press the microphone key on the virtual keyboard. Speak clearly and your speech will be transcribed in the input area.
+- **Speech Recognition** 
+  
+    - Enable your computer's microphone and press the microphone key on the **virtual keyboard**. 
+  
+    - Speak clearly and your speech will be transcribed in the input area.
 
 #
 
