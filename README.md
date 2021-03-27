@@ -36,9 +36,9 @@
 <a href=#100days>![#100DaysOfCode](assets/inter-100hash.png)</a>  
 
 ### Day 20: February 28, 2021
-- I've always wanted to create a virtual keyboard, but it was difficult to find a tutorial for a responsive keyboard.
-- After a lot of searching, I found great Russian tutorials on YouTube from the <a href="https://www.youtube.com/channel/UC578nebW2Mn-mNgjEArGZug">Rolling Scopes School</a>.
-- This keyboard has English and Russian modes, with speech recognition from the <a href="https://developer.mozilla.org/en-US/docs/Web/API/Web_Speech_API/Using_the_Web_Speech_API">Web Speech API.</a>
+- I've always wanted to create a virtual keyboard, but most tutorials were not responsive.
+- After searching, I found great Russian tutorials on Youtube from the <a href="https://www.youtube.com/channel/UC578nebW2Mn-mNgjEArGZug">Rolling Scopes School</a>.
+- This keyboard has English and Russian modes, with speech recognition from the <a href="https://developer.mozilla.org/en-US/docs/Web/API/Web_Speech_API/Using_the_Web_Speech_API">Web Speech API</a>.
 
 #
 
@@ -62,7 +62,9 @@ open index.html
 <a href=#notes>![Notes](assets/inter-notes.png)</a>
 
 - Press the "en/ru" key to switch between English and Russian modes.
+  
 - The virtual keyboard will respond to your physical keyboard, with the exception of the "return" key.
+  
 - For speech recognition, enable your computer microphone and press the microphone key on the virtual keyboard. Speak clearly and speech will be transcribed in the input area.
 
 #
