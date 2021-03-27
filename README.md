@@ -23,10 +23,15 @@
 <a href=#table-of-contents>![Table of Contents](assets/inter-toc.png)</a>  
 
 - [100 Days of Code](#100days)
+  
 - [Installation](#installation)
+  
 - [Notes](#notes) 
+  
 - [Live Site](#live-site)
+  
 - [Resources](#resources)
+  
 - [Let's Connect!](#lets-connect) 
 
 #
@@ -37,7 +42,9 @@
 
 ### Day 20: February 28, 2021
 - I've always wanted to create a virtual keyboard, but most tutorials were not responsive.
+  
 - After searching, I found great Russian tutorials on Youtube from the <a href="https://www.youtube.com/channel/UC578nebW2Mn-mNgjEArGZug">Rolling Scopes School</a>.
+  
 - This keyboard has English and Russian modes, with speech recognition from the <a href="https://developer.mozilla.org/en-US/docs/Web/API/Web_Speech_API/Using_the_Web_Speech_API">Web Speech API</a>.
 
 #
