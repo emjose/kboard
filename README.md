@@ -35,9 +35,9 @@
 <a href=#100days>![#100DaysOfCode](assets/inter-100hash.png)</a>  
 
 ### Day 20: February 28, 2021
-- I've always wanted to create a responsive virtual keyboard, but it was difficult to find a tutorial that was not part of a tech library.
-- Even though I don't speak Russian, I ended up watching both English and Russian YouTube tutorials on creating keyboards. 
-- This virtual keyboard has English and Russian modes, and it uses speech recognition using the <a href="https://developer.mozilla.org/en-US/docs/Web/API/Web_Speech_API/Using_the_Web_Speech_API">Web Speech API.</a>
+- I've always wanted to create a virtual keyboard, but it was difficult to find a tutorial for a responsive keyboard.
+- I don't speak Russian, but I ended up watching English and Russian YouTube tutorials on creating keyboards. 
+- This keyboard has English and Russian modes, and it uses speech recognition using the <a href="https://developer.mozilla.org/en-US/docs/Web/API/Web_Speech_API/Using_the_Web_Speech_API">Web Speech API.</a>
 
 #
 
@@ -53,11 +53,9 @@ git clone git@github.com:emjose/kboard.git && cd kboard
 ```
 open index.html
 ```
-#### • Press the "en/ru" key to switch between English and Russian modes.
-
-#### • The virtual keyboard will respond to typing on your physical keyboard, with the exception of the "return" key.
-
-#### • For speech recognition, enable the microphone on your computer and press the microphone key on the virtual keyboard. Speak clearly and speech will be transcribed in the text area.
+    * Press the "en/ru" key to switch between English and Russian modes.
+    * The virtual keyboard will respond to your physical keyboard, with the exception of the "return" key.
+    * For speech recognition, enable the microphone on your computer and press the microphone key on the virtual keyboard. Speak clearly and speech will be transcribed in the text area.
 
 <p id="live-site"><p>
 
