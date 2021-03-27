@@ -41,7 +41,7 @@ const keysEnglish = {
   'KeyL': ['l', 'L'],
   'Semicolon': [';', ':'],
   'Quote': ["'", '"'],
-  'Return': 'return',
+  'Enter': 'enter',
   'ShiftLeft': 'shift',
   'KeyZ': ['z', 'Z'],
   'KeyX': ['x', 'X'],
@@ -109,7 +109,7 @@ const keysRussian = {
   'KeyL': ['д', 'Д'],
   'Semicolon': ['ж', 'Ж'],
   'Quote': ['э', 'Э'], 
-  'Return': 'return',
+  'Enter': 'enter',
   'ShiftLeft': 'shift',
   'KeyZ': ['я', 'Я'],
   'KeyX': ['ч', 'Ч'],
@@ -196,7 +196,7 @@ const Keyboard = {
           button.classList.add('keyboard__key_double')
         }
       } else {
-        if (keys[item].match(/delete|tab|CapsLock|return|shift| /)) {
+        if (keys[item].match(/delete|tab|CapsLock|enter|shift| /)) {
           button.classList.add('keyboard__key_wide')
         }
 
@@ -290,7 +290,7 @@ const Keyboard = {
           selEnd = selStart
         }
       },
-      'Return': () => {
+      'Enter': () => {
         output.value = `${left}\n${right}`
         selStart += 1
         if (!this.shiftBtn) {

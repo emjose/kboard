@@ -24,7 +24,7 @@
 
 - [100 Days of Code](#100days)
 - [Installation](#installation)
-- [Notes](#notes) 
+- [Notes and Issues](#notes-and-issues) 
 - [Live Site](#live-site)
 - [Resources](#resources)
 - [Let's Connect!](#lets-connect) 
@@ -59,15 +59,17 @@ open index.html
 
 #
 
-<p id="notes"><p>
+<p id="notes-and-issues"><p>
 
-<a href=#notes>![Notes](assets/inter-notes.png)</a>
+<a href=#notes-and-issues>![Notes and Issues](assets/inter-notes-and-issues.png)</a>
 
 - Press the "en/ru" key to switch between English and Russian modes.
   
-- The virtual keyboard will respond to your physical keyboard, with the exception of the "return" key.
+- The virtual keyboard will respond to your **physical keyboard**,  with one exception:
+
+    - The "caps lock" key on your **physical keyboard** may need to be pressed twice to sync with the virtual keyboard.
   
-- For speech recognition, enable your computer microphone and press the microphone key on the virtual keyboard. Speak clearly and speech will be transcribed in the input area.
+- For speech recognition, enable your computer microphone and press the microphone key on the virtual keyboard. Speak clearly and your speech will be transcribed in the input area.
 
 #
 
