@@ -23,15 +23,10 @@
 <a href=#table-of-contents>![Table of Contents](assets/inter-toc.png)</a>  
 
 - [100 Days of Code](#100days)
-  
 - [Installation](#installation)
-  
 - [Notes](#notes) 
-  
 - [Live Site](#live-site)
-  
 - [Resources](#resources)
-  
 - [Let's Connect!](#lets-connect) 
 
 #
