@@ -63,13 +63,13 @@ open index.html
 
 <a href=#notes-and-issues>![Notes and Issues](assets/inter-notes-and-issues.png)</a>
 
-- Press **"shift"** keys for additional symbol characters.
+- Press **`shift`** keys for additional symbol characters.
 
-- Press the **"en/ru"** key to switch between English and Russian modes.
+- Press the **`en/ru`** key to switch between English and Russian modes.
   
 - The virtual keyboard will respond to your **physical keyboard**,  with one exception:
 
-    - The **"caps lock"** key on your **physical keyboard** may need to be pressed twice to sync with the virtual keyboard.
+    - The **`caps lock`** key on your **physical keyboard** may need to be pressed twice to correctly sync.
   
 - **Speech Recognition** 
   
@@ -96,6 +96,8 @@ open index.html
 - #### [Using the Web Speech API](https://developer.mozilla.org/en-US/docs/Web/API/Web_Speech_API/Using_the_Web_Speech_API)
 
 - #### [Mouse Click Sound Effects](https://www.fesliyanstudios.com/royalty-free-sound-effects-download/mouse-click-2)
+
+- #### [Rolling Scopes School Virtual Keyboard Task](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/ready-projects/virtual-keyboard.md)
   
 - #### [Russian Tutorial, Part 1](https://youtu.be/nuQW_cBLR6Q) by [Rolling Scopes School](https://www.youtube.com/channel/UC578nebW2Mn-mNgjEArGZug)
   
@@ -105,8 +107,6 @@ open index.html
 
 - #### [How to build a speech recognising app with JavaScript](https://medium.com/@susannakosonen/how-to-build-a-speech-recognising-app-with-javascript-1d5e5ba2c2c9) by [Susanna Kosonen](https://medium.com/@susannakosonen)
 
-
-  
 #
 
 <p id="lets-connect"><p>
