@@ -107,6 +107,8 @@ open index.html
 
 - #### [How to build a speech recognising app with JavaScript](https://medium.com/@susannakosonen/how-to-build-a-speech-recognising-app-with-javascript-1d5e5ba2c2c9) by [Susanna Kosonen](https://medium.com/@susannakosonen)
 
+- #### [My blog on how I created my Github READMEs](https://emmanueljose.medium.com/readme-a-makeover-story-b9c7be37a6de?sk=7ae6623d365409d875753e4604e42ffd) 
+
 #
 
 <p id="lets-connect"><p>
