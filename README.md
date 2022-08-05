@@ -38,7 +38,9 @@
 ### Day 20: February 28, 2021
 
 -   I've always wanted to create a virtual keyboard, but most tutorials were not responsive.
+
 -   After searching, I found great Russian tutorials on Youtube from the <a href="https://www.youtube.com/channel/UC578nebW2Mn-mNgjEArGZug">Rolling Scopes School</a>.
+
 -   This keyboard has English and Russian modes, with speech recognition from the <a href="https://developer.mozilla.org/en-US/docs/Web/API/Web_Speech_API/Using_the_Web_Speech_API">Web Speech API</a>.
 
 #
@@ -49,13 +51,13 @@
 
 #### Git clone and cd into the repo folder:
 
-```
+```console
 git clone git@github.com:emjose/kboard.git && cd kboard
 ```
 
 #### Run the command:
 
-```
+```console
 open index.html
 ```
 
