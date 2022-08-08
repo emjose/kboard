@@ -49,13 +49,13 @@
 
 <a href=#installation>![Installation](https://res.cloudinary.com/dn1e07eul/image/upload/v1659389842/Readme%20Headers/inter-installation_j9ixlq.png)</a>
 
-#### Git clone and cd into the repo folder:
+#### 1. Git clone and cd into the repo folder:
 
 ```console
 git clone git@github.com:emjose/kboard.git && cd kboard
 ```
 
-#### Run the command:
+#### 2. Run the command:
 
 ```console
 open index.html
@@ -101,7 +101,9 @@ open index.html
 -   #### [Mouse Click Sound Effects](https://www.fesliyanstudios.com/royalty-free-sound-effects-download/mouse-click-2)
 
 -   #### [Rolling Scopes School Virtual Keyboard Task](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/ready-projects/virtual-keyboard.md)
+
 -   #### [Russian Tutorial, Part 1](https://youtu.be/nuQW_cBLR6Q) by [Rolling Scopes School](https://www.youtube.com/channel/UC578nebW2Mn-mNgjEArGZug)
+
 -   #### [Russian Tutorial, Part 2](https://youtu.be/dAxI351AhCg) by [Rolling Scopes School](https://www.youtube.com/channel/UC578nebW2Mn-mNgjEArGZug)
 
 -   #### [JavaScript Speech Recognition Tutorial](https://www.youtube.com/watch?v=0mJC0A72Fnw) by [Wes Bos](https://www.youtube.com/channel/UCoebwHSTvwalADTJhps0emA)
