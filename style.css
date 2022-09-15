@@ -12,6 +12,8 @@ body {
 	flex-direction: column;
 	align-items: center;
 	background: rgba(145, 144, 144, 0.1);
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
 }
 
 ::placeholder {
@@ -127,7 +129,7 @@ body {
 	left: 0;
 	bottom: 0;
 	width: 100%;
-	color: rgb(155, 154, 154);
+	color: rgb(84, 84, 84);
 	text-align: center;
 	font-family: "Rubik", sans-serif;
 	margin-bottom: 25px;
