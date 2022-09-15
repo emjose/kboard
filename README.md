@@ -29,6 +29,8 @@
 -   [Resources](#resources)
 -   [Let's Connect!](#lets-connect)
 
+<br>
+
 #
 
 <p id="100days"><p>
@@ -41,7 +43,9 @@
 
 -   After searching, I found great Russian tutorials on Youtube from the <a href="https://www.youtube.com/channel/UC578nebW2Mn-mNgjEArGZug">Rolling Scopes School</a>.
 
--   This keyboard has English and Russian modes, with speech recognition from the <a href="https://developer.mozilla.org/en-US/docs/Web/API/Web_Speech_API/Using_the_Web_Speech_API">Web Speech API</a>.
+-   This **[Keyboard](https://emjose.github.io/kboard/)** has English and Russian modes, with speech recognition from the <a href="https://developer.mozilla.org/en-US/docs/Web/API/Web_Speech_API/Using_the_Web_Speech_API">Web Speech API</a>.
+
+<br>
 
 #
 
@@ -60,6 +64,8 @@ git clone git@github.com:emjose/kboard.git && cd kboard
 ```console
 open index.html
 ```
+
+<br>
 
 #
 
@@ -80,6 +86,8 @@ open index.html
 
     -   Speak clearly and your speech will be transcribed in the input area.
 
+<br>
+
 #
 
 <p id="live-site"><p>
@@ -87,6 +95,14 @@ open index.html
 <a href="https://emjose.github.io/kboard/">![Live Site](https://res.cloudinary.com/dn1e07eul/image/upload/v1659389947/Readme%20Headers/inter-live-site_ngkqcf.png)</a>
 
 <a href="https://emjose.github.io/kboard/">![Under Construction](assets/020-keyboard.gif)</a>
+
+• The **[Keyboard](https://emjose.github.io/kboard/)** is best viewed on a desktop or laptop computer browser.
+
+• The **[Keyboard](https://emjose.github.io/kboard/)** will not be rendered on mobile devices with a width of 400 pixels or less.
+
+• The **[Keyboard](https://emjose.github.io/kboard/)** is a [progressive web app](https://developer.mozilla.org/en-US/docs/Web/Progressive_web_apps).
+
+<br>
 
 #
 
@@ -111,6 +127,8 @@ open index.html
 -   #### [How to build a speech recognising app with JavaScript](https://medium.com/@susannakosonen/how-to-build-a-speech-recognising-app-with-javascript-1d5e5ba2c2c9) by [Susanna Kosonen](https://medium.com/@susannakosonen)
 
 -   #### [My blog on how I created my Github READMEs](https://emmanueljose.medium.com/readme-a-makeover-story-b9c7be37a6de?sk=7ae6623d365409d875753e4604e42ffd)
+
+<br>
 
 #
 

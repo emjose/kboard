@@ -1,6 +1,39 @@
 @import url("https://fonts.googleapis.com/css2?family=Lato&family=Roboto&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@300;400&family=Rubik:wght@300;400&display=swap");
 
+:root {
+	--orange: rgb(255, 153, 1);
+	--white: #fff;
+	--black: #000;
+	--github-fill: rgb(38, 37, 41);
+	--github-color: #f3f3f3;
+	--github-hover: var(--orange);
+	--body-background: rgba(145, 144, 144, 0.1);
+
+	--placeholder: rgba(68, 67, 67, 0.3);
+	--rubik: "Rubik", sans-serif;
+	--input-background: #eeeded;
+	--input-shadow: 5px 5px 10px #bcbcbc, -5px -5px 10px #ffffff;
+	--keyboard-shadow: 4px 4px 6px #7c7c7c, -5px -5px 10px #ffffff;
+	--keyboard-background: #e6e6e6;
+	--keyboard-background-color: #f3f7fc;
+	--keyboard-gradient: linear-gradient(
+		145deg,
+		rgb(204, 204, 204) 0%,
+		rgb(235, 234, 234) 45%,
+		rgb(170, 170, 170) 100%
+	);
+
+	--key-text-color: rgb(255, 255, 255);
+	--key-background: rgb(3, 3, 3) radial-gradient(circle at 0 0, rgba(0, 0, 0, 0.75), rgba(98, 93, 107, 0.753));
+	--key-shadow: inset rgba(0, 0, 0, 0.75) -1px -1px 2px, inset rgba(255, 255, 255) 1px 1px 2px,
+		rgba(0, 0, 0, 0.8) 1px 1px 2px -1px;
+	--key-active-shadow: 3px 2px 22px 1px rgba(0, 0, 0, 0.24);
+	--key-hover-shadow: inset rgba(88, 88, 88, 0.75) -2px -2px 3px, inset rgba(255, 255, 255) 1px 1px 2px,
+		rgba(224, 223, 223, 0.8) 1px 1px 2px -1px;
+	--key-double-color: rgb(48, 47, 47);
+	--footer-text: rgb(84, 84, 84);
+}
 * {
 	margin: 0;
 	padding: 0;
@@ -11,13 +44,13 @@ body {
 	display: flex;
 	flex-direction: column;
 	align-items: center;
-	background: rgba(145, 144, 144, 0.1);
+	background: var(--body-background);
 	-webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale;
 }
 
 ::placeholder {
-	color: rgba(68, 67, 67, 0.3);
+	color: var(--placeholder);
 }
 
 .input-area {
@@ -30,16 +63,15 @@ body {
 	margin: 30px auto;
 	padding: 20px;
 	letter-spacing: 1.5px;
-	/* resize: none; */
 	resize: vertical;
-	font-family: "Rubik", sans-serif;
+	font-family: var(--rubik);
 	font-size: 1.75rem;
 	border: none;
 	border-radius: 15px;
 	outline: none;
 	border-radius: 4px;
-	background: #eeeded;
-	box-shadow: 5px 5px 10px #bcbcbc, -5px -5px 10px #ffffff;
+	background: var(--input-background);
+	box-shadow: var(--input-shadow);
 }
 
 .keyboard {
@@ -50,10 +82,10 @@ body {
 	max-width: 1050px;
 	padding: 10px;
 	border-radius: 10px;
-	background: #e6e6e6;
-	background-color: #f3f7fc;
-	background-image: linear-gradient(145deg, rgb(204, 204, 204) 0%, rgb(235, 234, 234) 45%, rgb(170, 170, 170) 100%);
-	box-shadow: 4px 4px 6px #7c7c7c, -5px -5px 10px #ffffff;
+	background: var(--keyboard-background);
+	background-color: var(--keyboard-background-color);
+	background-image: var(--keyboard-gradient);
+	box-shadow: var(--keyboard-shadow);
 }
 
 .keyboard__row {
@@ -69,18 +101,14 @@ body {
 	min-width: 6%;
 	height: 50px;
 	font-size: 18px;
-
 	border: none;
 	border-radius: 5px;
 	cursor: pointer;
 	user-select: none;
 	border-radius: 4px;
-
-	/* black keys */
-	color: rgb(255, 255, 255);
-	background: rgb(3, 3, 3) radial-gradient(circle at 0 0, rgba(0, 0, 0, 0.75), rgba(98, 93, 107, 0.753));
-	box-shadow: inset rgba(0, 0, 0, 0.75) -1px -1px 2px, inset rgba(255, 255, 255) 1px 1px 2px,
-		rgba(0, 0, 0, 0.8) 1px 1px 2px -1px;
+	color: var(--key-text-color);
+	background: var(--key-background);
+	box-shadow: var(--key-shadow);
 	transition: all 0.2s ease;
 	-webkit-border-radius: 3px;
 	-moz-border-radius: 3px;
@@ -92,21 +120,19 @@ body {
 
 .keyboard__key:active {
 	transform: scale(0.95);
-	box-shadow: 3px 2px 22px 1px rgba(0, 0, 0, 0.24);
+	box-shadow: var(--key-active-shadow);
 }
 .keyboard__key:hover {
-	color: black;
-	background: rgb(255, 153, 1);
-	box-shadow: inset rgba(88, 88, 88, 0.75) -2px -2px 3px, inset rgba(255, 255, 255) 1px 1px 2px,
-		rgba(224, 223, 223, 0.8) 1px 1px 2px -1px;
+	color: var(--black);
+	background: var(--orange);
+	box-shadow: var(--key-hover-shadow);
 	outline: none;
 }
 
 .keyboard__key_pressed {
-	color: black;
-	background: rgb(255, 153, 1);
-	box-shadow: inset rgba(88, 88, 88, 0.75) -2px -2px 3px, inset rgba(255, 255, 255) 1px 1px 2px,
-		rgba(224, 223, 223, 0.8) 1px 1px 2px -1px;
+	color: var(--black);
+	background: var(--orange);
+	box-shadow: var(--key-hover-shadow);
 	outline: none;
 	transform: scale(0.95);
 }
@@ -116,7 +142,7 @@ body {
 }
 
 .keyboard__key_double .disable {
-	color: rgb(48, 47, 47);
+	color: var(--key-double-color);
 	visibility: hidden;
 }
 
@@ -129,9 +155,9 @@ body {
 	left: 0;
 	bottom: 0;
 	width: 100%;
-	color: rgb(84, 84, 84);
+	color: var(--footer-text);
 	text-align: center;
-	font-family: "Rubik", sans-serif;
+	font-family: var(--rubik);
 	margin-bottom: 25px;
 	text-transform: uppercase;
 	justify-content: center;
@@ -140,8 +166,25 @@ body {
 	font-weight: 300;
 }
 
+#first-instruction {
+	display: inline-block;
+}
+
+#second-instruction {
+	display: none;
+}
+
 .github-corner:hover .octo-arm {
 	animation: octocat-wave 560ms ease-in-out;
+}
+
+.github-corner:hover svg path {
+	fill: var(--github-hover);
+}
+
+.github-corner:hover .octo-arm,
+.github-corner:hover .octo-body {
+	fill: var(--github-color);
 }
 
 @keyframes octocat-wave {
@@ -149,12 +192,10 @@ body {
 	100% {
 		transform: rotate(0);
 	}
-
 	20%,
 	60% {
 		transform: rotate(-25deg);
 	}
-
 	40%,
 	80% {
 		transform: rotate(10deg);
@@ -165,7 +206,6 @@ body {
 	.github-corner:hover .octo-arm {
 		animation: none;
 	}
-
 	.github-corner .octo-arm {
 		animation: octocat-wave 560ms ease-in-out;
 	}
@@ -206,5 +246,23 @@ body {
 
 	.material-icons {
 		font-size: 12px;
+	}
+}
+
+@media (max-width: 400px) {
+	.input-area {
+		max-height: 50vh;
+	}
+
+	.keyboard {
+		display: none;
+	}
+
+	#first-instruction {
+		display: none;
+	}
+
+	#second-instruction {
+		display: inline-block;
 	}
 }
